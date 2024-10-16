@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ 
+<body>
+    <form>
+        <fieldset style="width: 30%;">
+            <legend> FORM</legend>
+ 
+            <table>
+                <tr>
+                    <td> <label for="txtKad"> Kullanıcı Adı </label> </td>
+                    <td><input id="txtKad" type="text"></td>
+                </tr>
+                <tr>
+                    <td> <label for="txtSifre"> Şifre </label></td>
+                    <td> <input id="txtSifre" type="password"></td>
+                </tr>
+                <tr>
+                    <td> <label for="txtSifreTekrari"> Şifre Tekrarı </label></td>
+                    <td> <input id="txtSifreTekrari" type="password"></td>
+                </tr>
+                <tr>
+                    <td> <label for="chcHatirla"> Hatırla: </label></td>
+                    <td> <input id="chcHatirla" type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td> <label>Durum:</label></td>
+ 
+                </tr>
+                <tr>
+                    <td colspan="2"> <input name="rdDurum" type="radio" id="rdBurslu">
+                        <label for="rdUcretli">Ücretli</label>
+                    </td>
+ 
+                </tr>
+                <tr>
+                    <td colspan="2"> <input name="rdDurum" type="radio" id="rdUcretli">
+                        <label for="rdBurslu">Burslu</label>
+ 
+                    </td>
+ 
+                </tr>
+                <tr>
+                    <td> <label>Seçim Yapınız:</label> </td>
+ 
+                    <td>
+                        <select>
+                            <option value="Seçiniz">Seçiniz</option>
+                            <option value="Devlet">Devlet</option>
+                            <option value="Vakif">Vakıf</option>
+                         
+                        </select>
+                    </td>
+ 
+                </tr>
+                <tr>
+                    <td>Adres</td>
+                    <td> <textarea rows="15" cols="35">
+ 
+                    </textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+ 
+ 
+    </form>
+</body>
+ 
+</html>
+            <!-- fieldset group box yapmaya yarıyor -->
+
+                    <!-- GROUP BOXA BAŞLIK ATMAYA YARIYOR -->
+ 
+
+            <!-- for ve id ile verilerek kullacı adına basıldığında onun kutusuna gidiş yapılıyor -->
+            <!-- radio buton sayesinde biri seçiliyken diğeri olmuyor -->
+            <!-- combo box yapımı -->
+             <!-- value sayesinde arkada değer ataması yapılıyor şuan
+               bir işe yaramıyor kavaya geçince işe yarayacak -->
+               <!-- SELECTED SAYESİNDE SEÇİLİ OLARAK AÇILMADAN ÖNCE HANGİSİNİN GÖSTERECEĞİNİ BELİRTİOR -->
+             <!-- burada textarea sabit bir boyut vermiş oluyoruz row ve cols ile -->
+              <!-- placeholder ile bir şey yazmadığımız için yönergeyi buraya yazabiliyoruz. -->
