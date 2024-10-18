@@ -97,9 +97,9 @@
 
     <div class="container">
         <!-- yazıyı beyaz yapar text-white -->
-        <div class="bg-danger text-white rounded">
-            <h2>SON DAKİKA</h2>
-            <h3>OKULLAR TATİL EDİLDİ...</h3>
+        <div>
+            <h2 >SON DAKİKA</h2>
+            <h3 >OKULLAR TATİL EDİLDİ...</h3>
             <P>Yoğun yağış sebeiyle eğitim öğretime ara verildi.</P>
         </div>
     </div>
@@ -107,16 +107,19 @@
     <div class="container">
         <!-- mt-4 margin demek üst ile arasındaki mesafenin boyutunu belirler m-5 e kadar vardır. -->
         <div class="mt-4 bg-danger text-white rounded">
-            <h2>SON DAKİKA</h2>
-            <h3>OKULLAR TATİL EDİLDİ...</h3>
-            <P>Yoğun yağış sebeiyle eğitim öğretime ara verildi.</P>
+            <div class="spinner-grow text-danger">
+                <h2 style="color: aliceblue;">SON DAKİKA</h2>
+                <h3 style="color: antiquewhite;">OKULLAR TATİL EDİLDİ...</h3>
+                <P style="color: aquamarine;">Yoğun yağış sebeiyle eğitim öğretime ara verildi.</P>
+            </div>
+          
         </div>
     </div>
 
     <div class="container">
         <!-- p-5 padding dir. yüksekliği arttırır çerçeve ile metin 
          arasındakinin mesafesini ayarlar p-5 e kadardır -->
-        <div class="mt-4 p-5 bg-danger text-white rounded">
+         <div class="mb-4 p-5 bg-danger text-white rounded">
             <h2>SON DAKİKA</h2>
             <h3>OKULLAR TATİL EDİLDİ...</h3>
             <P>Yoğun yağış sebeiyle eğitim öğretime ara verildi.</P>
@@ -144,8 +147,16 @@
     <!-- yanıp sönüyorlar -->
     <div class="spinner-grow text-danger"></div><br>
     <div class="spinner-grow text-warning"></div><br>
-    <div class="spinner-grow text-success"></div>
+    <div class="spinner-grow text-success"></div><br>
 
+
+    <button class="btn btn-info">
+        <span class="spinner-border spinner-border-sm"> </span>loading...
+    </button>
+
+    <p class="btn btn-success"> bu bir buton değildir. p ile yazılmıştır. dikkat</p>
+
+    
 
 </body>
 </html>
