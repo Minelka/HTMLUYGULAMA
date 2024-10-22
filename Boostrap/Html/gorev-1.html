@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kutu Renk Değiştirme</title>
+    <link rel="stylesheet" href="/Boostrap/Html/css/gorev-1.css">
+</head>
+<body>
+    <!-- <div class="container">
+        <div class="kutu" id="kutu"></div>
+    </div> -->
+    <!-- <button style="height: 200px; width: 200px;" onclick="bodyColor()">rastgele renk</button> -->
+     <form onsubmit="return ValidateForm()">
+        <input type="text" id="isim" placeholder="Adınızı Giriniz.">
+        <button type="submit"> gönder</button>
+     </form>
+
+    <script>
+        function ValidateForm()
+        {
+            let isim = document.getElementById("isim").value;
+            if(isim=="") 
+            {
+                alert("isim boş olmamalı");
+                return false;
+            }
+            return true;
+        }
+    </script>
+
+</body>
+</html>
